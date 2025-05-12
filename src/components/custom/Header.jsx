@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Button } from '../ui/button'
+import { Button } from "../ui/button";
 import {
   Popover,
   PopoverContent,
@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/dialog"
 import { FcGoogle } from "react-icons/fc";
 import axios from 'axios';
+import ThemeToggle from "../../constants/ThemeToggle.jsx";
 
 function Header() {
   const user = JSON.parse(localStorage.getItem('user'));
@@ -50,6 +51,7 @@ function Header() {
       <div>
         {user ?
           <div className='flex items-center gap-3'>
+            <ThemeToggle className="" />
             <a href="/create-trip">
             <Button variant="outline" className="rounded-full">+ Create Trip</Button>
             </a>
