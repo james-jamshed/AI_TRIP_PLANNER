@@ -24,7 +24,7 @@ function Section2() {
             delay: 1000,
           }),
         ]}
-        className="w-full bg-black py-9"
+        className="w-full bg-black py-9 "
       >
         <CarouselContent>
           {imagescursoel.map(({ name, id, path }) => {
@@ -33,7 +33,7 @@ function Section2() {
                 <img
                   src={path}
                   alt={name}
-                  className="h-25 sm:h-`14 object-contain"
+                  className="h-25 rounded-lg sm:h-`14 object-contain"
                 ></img>
               </CarouselItem>
             );
