@@ -46,11 +46,11 @@ function Header() {
   }
 
   return (
-    <div className='shadow-sm flex justify-between items-center px-6'>
+    <div className='shadow-sm flex bg-black justify-between items-center px-6'>
       <img src="/logo.svg" alt="Logo" />
       <div>
         {user ?
-          <div className='flex items-center gap-3'>
+          <div className=' flex items-center gap-3'>
             <ThemeToggle className="" />
             <a href="/create-trip">
             <Button variant="outline" className="rounded-full">+ Create Trip</Button>
