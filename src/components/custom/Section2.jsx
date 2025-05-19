@@ -7,7 +7,9 @@ import { Typewriter } from "react-simple-typewriter";
 function Section2() {
   return (
    <div className="bg-black">
+    
      <div className="text-2xl md:text-4xl bg-black  text-white font-bold text-center  ">
+      <div className="w-full border-t-4 border-white mb-10"></div>
       <Typewriter
         words={["Recommended   of The Month"]}
         loop={false}
@@ -33,9 +35,14 @@ function Section2() {
                 <img
                   src={path}
                   alt={name}
-                  className="h-25 rounded-lg sm:h-`14 object-contain"
-                ></img>
+                 
+                  className="h-25 rounded-lg  text-white sm:h-`14 object-contain"
+                >
+                   
+                </img>
+                
               </CarouselItem>
+              
             );
           })}
         </CarouselContent>

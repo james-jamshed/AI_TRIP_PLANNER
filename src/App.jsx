@@ -11,7 +11,10 @@ function App() {
   return (
     <>
       {/* Hero */}
-      <Hero/>
+      
+      
+        <Hero />
+      
     
       <Travelpage></Travelpage>
       <Section2></Section2>

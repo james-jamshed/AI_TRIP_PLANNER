@@ -46,17 +46,17 @@ function Header() {
   }
 
   return (
-    <div className='shadow-sm flex bg-black justify-between items-center px-6'>
+    <div className='shadow-sm flex  bg-transparent justify-between items-center px-6'>
       <img src="/logo.svg" alt="Logo" />
       <div>
         {user ?
           <div className=' flex items-center gap-3'>
             <ThemeToggle className="" />
             <a href="/create-trip">
-            <Button variant="outline" className="rounded-full">+ Create Trip</Button>
+            <Button variant="outline" className="rounded-full hover:bg-green-300">+ Create Trip</Button>
             </a>
             <a href="/my-trips">
-            <Button variant="outline" className="rounded-full">My Trips</Button>
+            <Button variant="outline" className="rounded-full  hover:bg-green-300 ">My Trips</Button>
             </a>
             <Popover>
               <PopoverTrigger>             
