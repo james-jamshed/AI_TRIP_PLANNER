@@ -1,47 +1,57 @@
 [
     {
-        "name":"a.webp",
+        "name":"victoria memorial",
         "path":"https://img.freepik.com/premium-photo/victoria-memorial-historical-white-marble-monument-museum-kolkata_1048944-7500969.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740",
-        "id":1
+        "id":1,
+         "link": "https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zDA0rajKKYxXYDRgdGDwEizLTC7JL8pMVMhNzQXROQDWLQv_&q=victoria+memorial&rlz=1C1GCEU_enIN1162IN1162&oq=victoria+&gs_lcrp=EgZjaHJvbWUqEAgEEC4YxwEYsQMY0QMYgAQyDQgAEAAY4wIYsQMYgAQyEAgBEC4YxwEYsQMY0QMYgAQyCggCEC4YsQMYgAQyBggDEEUYOTIQCAQQLhjHARixAxjRAxiABDIQCAUQLhjHARixAxjRAxiABDIKCAYQABixAxiABDIKCAcQABixAxiABDIKCAgQLhixAxiABDIKCAkQABixAxiABNIBCDgwMTdqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8"
+
     },
     {
-        "name":"b.webp",
+        "name":"kedarnath",
         "path":"https://img.freepik.com/premium-photo/kedarnath-india_78361-2502.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740",
-        "id":2
+        "id":2,
+        "link": "https://badrinath-kedarnath.gov.in/AboutUs/shri-kedarnath.aspx"
     },
     {
-        "name":"c.webp",
+        "name":"Bara Imambara",
         "path":"https://img.freepik.com/premium-photo/bara-imambara-lucknow_78361-2521.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740",
-        "id":3
+        "id":3,
+        "link": "https://en.wikipedia.org/wiki/Bara_Imambara"
     },
     {
-        "name":"d.webp",
+        "name":"Gateway Of India ",
         "path":"https://img.freepik.com/premium-photo/gateway-india_78361-4513.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740",
-        "id":4
+        "id":4,
+        "link": "https://en.wikipedia.org/wiki/Gateway_of_India"
     },
     {
-        "name":"e.webp",
+        "name":"India Gate",
         "path":"https://img.freepik.com/premium-photo/india-gate-sunrise-famous-landmark-new-dehli-no-people_400112-353.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740",
-        "id":5
+        "id":5,
+        "link": "https://en.wikipedia.org/wiki/India_Gate"
     },
     {
-        "name":"g.webp",
+        "name":"Lotus Temple",
         "path":"https://img.freepik.com/free-photo/beautiful-shot-lotus-temple-delhi-india-cloudy-sky_181624-15316.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740",
-        "id":6
+        "id":6,
+        "link": "https://en.wikipedia.org/wiki/Lotus_Temple"
     },
     {
-        "name":"f.webp",
+        "name":"Bhool Bhulaiya",
         "path":"https://img.freepik.com/premium-photo/rumi-darwaza_78361-2525.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740",
-        "id":7
+        "id":7,
+        "link": "https://lucknowtourism.co.in/bhool-bhulaiya-lucknow"
     },
     {
-        "name":"k.webp",
+        "name":"kerala Temple",
         "path":"https://img.freepik.com/premium-photo/albert-hall-central-museum-jaipur_78361-558.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740",
-        "id":8
+        "id":8,
+        "link": "https://en.wikipedia.org/wiki/Backwaters_of_Kerala"
     },
     {
-        "name":"l.webp",
+        "name":"Goa",
         "path":"https://img.freepik.com/free-photo/beautiful-tropical-beach-sea-ocean-with-coconut-palm-tree-umbrella-chair-blue-sky_74190-8827.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740",
-        "id":9
+        "id":9,
+        "link": "https://en.wikipedia.org/wiki/Goa"
     }
 ]

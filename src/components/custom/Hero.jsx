@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <div className="relative min-h-screen w-full overflow-hidden flex flex-col justify-center items-center text-center">
+    <div className="relative  min-h-screen w-full overflow-hidden flex flex-col justify-center items-center text-center">
       {/* Background Video */}
       <video
         autoPlay
@@ -23,8 +23,8 @@ function Hero() {
 
       {/* Content */}
       <div className="z-20 text-white px-4">
-        <h1 className="font-extrabold text-[50px] text-center mt-20">
-          <span className="text-[#f56551]">
+        <h1 className="font-extrabold text-[50px] text-center mt-30 ">
+          <span className="text-[#f56551] ">
             AI Trip Planner
             <br />
           </span>

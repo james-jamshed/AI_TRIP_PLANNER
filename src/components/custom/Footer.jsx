@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="md:text-right">
           <p className="text-gray-400 mb-2">✈️ Plan your next adventure with us</p>
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} TravelSite. All rights reserved.
+            © {new Date().getFullYear()} AI TRIP PLANNER. All rights reserved.
           </p>
         </div>
       </div>

@@ -46,33 +46,59 @@ function Header() {
   }
 
   return (
-    <div className='shadow-sm flex  bg-transparent justify-between items-center px-6'>
-      <img src="/logo.svg" alt="Logo" />
-      <div>
-        {user ?
-          <div className=' flex items-center gap-3'>
-            <ThemeToggle className="" />
-            <a href="/create-trip">
-            <Button variant="outline" className="rounded-full hover:bg-green-300">+ Create Trip</Button>
-            </a>
-            <a href="/my-trips">
-            <Button variant="outline" className="rounded-full  hover:bg-green-300 ">My Trips</Button>
-            </a>
-            <Popover>
-              <PopoverTrigger>             
-                <img src={user?.picture} alt="" className='h-[35px] w-[35px] rounded-full' />
-              </PopoverTrigger>
-              <PopoverContent>
-                <h2 className='cursor-pointer' onClick={()=>{
-                  googleLogout();
-                  localStorage.clear();
-                  window.location.reload();
-                }}>Logout</h2>
-              </PopoverContent>
-            </Popover>
+    <>
+     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-white/10 shadow-md border-b border-white/20">
+        <div className="flex justify-between items-center px-6 py-3 max-w-7xl mx-auto">
+          {/* Logo */}
+          <a href="/">
+            <img src="/logo.svg" alt="Logo" className="h-10" />
+          </a>
 
-          </div> : <Button onClick={()=>setOpenDialog(true)}>Sign In</Button>}
-      </div>
+          {/* Actions */}
+          <div className="flex items-center gap-4">
+            <ThemeToggle />
+
+            {user ? (
+              <>
+                <a href="/create-trip">
+                  <Button variant="outline" className="rounded-full hover:bg-green-300">
+                    + Create Trip
+                  </Button>
+                </a>
+                <a href="/my-trips">
+                  <Button variant="outline" className="rounded-full hover:bg-green-300">
+                    My Trips
+                  </Button>
+                </a>
+                <Popover>
+                  <PopoverTrigger>
+                    <img
+                      src={user?.picture}
+                      alt="User"
+                      className="h-[35px] w-[35px] rounded-full object-cover border-2 border-white"
+                    />
+                  </PopoverTrigger>
+                  <PopoverContent className="text-center">
+                    <h2
+                      className="cursor-pointer text-red-500 font-semibold hover:underline"
+                      onClick={() => {
+                        googleLogout();
+                        localStorage.clear();
+                        window.location.reload();
+                      }}
+                    >
+                      Logout
+                    </h2>
+                  </PopoverContent>
+                </Popover>
+              </>
+            ) : (
+              <Button onClick={() => setOpenDialog(true)}>Sign In</Button>
+            )}
+          </div>
+        </div>
+      </header>
+
 
       <Dialog open={openDialog}>
         <DialogContent>
@@ -91,8 +117,10 @@ function Header() {
         </DialogContent>
       </Dialog>
 
-    </div>
+     </>
+   
   )
 }
+
 
 export default Header

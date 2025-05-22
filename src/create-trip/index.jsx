@@ -134,7 +134,7 @@ function CreateTrip() {
   return (
     <div className="sm:px-10 md:px-32 lg:px-56 px-5 mt-1 bg-black">
       <div data-aos="fade-up" className="text-center mb-10 px-4">
-        <h2 className="font-extrabold text-4xl md:text-5xl text-orange-800 drop-shadow-sm">
+        <h2 className="font-extrabold text-4xl md:text-5xl text-green-800 drop-shadow-sm">
           Tell us your travel preferences 🌴
         </h2>
         <p className="mt-4 text-lg md:text-xl text-orange-700 max-w-2xl mx-auto">
@@ -147,7 +147,7 @@ function CreateTrip() {
         <div
           className="p-6 bg-orange-50 hover:bg-orange-100 border border-orange-200 rounded-2xl shadow-sm transition-all duration-300"
           data-aos="fade-up"
-        >
+        > 
           <label
             htmlFor="destination"
             className="block text-2xl font-bold text-orange-800 mb-4"
