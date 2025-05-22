@@ -61,7 +61,7 @@ function Header() {
 
           {/* Actions */}
           <div className="flex items-center gap-4">
-            {/* <ThemeToggle /> */}
+            <ThemeToggle />
 
             {user ? (
               <>
