@@ -23,7 +23,8 @@ function InfoSection({ trip }) {
     
     return (
         <div>
-            <img src={photoUrl?photoUrl:'/placeholder.jpg'} alt="img" className='h-[340px] w-full object-cover rounded-xl' />
+            <img src="https://img.freepik.com/free-vector/travel-tourism-illustration-with-resort-sightseeing-elements_1284-30189.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740"
+             alt="img" className='h-[340px] w-full object-cover rounded-xl' />
             <div>
                 <div className='my-5 flex flex-col gap-2'>
                     <h2 className='font-bold text-2xl'>{trip?.userSelection?.location?.label}</h2>

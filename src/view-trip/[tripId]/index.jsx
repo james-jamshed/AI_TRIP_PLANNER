@@ -34,7 +34,7 @@ function Viewtrip() {
     }
 
     return (
-        <div className='p-10 md:px-20 lg:px-44 xl:px-56'>
+        <div className='p-10 mt-20 md:px-20 lg:px-44 xl:px-56'>
             {/* Information Section */}
             <InfoSection trip={trip} />
 
