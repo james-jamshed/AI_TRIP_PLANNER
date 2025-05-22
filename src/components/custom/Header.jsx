@@ -47,26 +47,31 @@ function Header() {
 
   return (
     <>
-     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-white/10 shadow-md border-b border-white/20">
+     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-white/5 shadow-md border-b border-white/10">
         <div className="flex justify-between items-center px-6 py-3 max-w-7xl mx-auto">
           {/* Logo */}
           <a href="/">
-            <img src="/logo.svg" alt="Logo" className="h-10" />
+            <img src="https://tripplanner.ai/logo/logo-text-og-twitter.webp" alt="Logo" className="h-10" />
+            {/* <h1>ai treip planner</h1> */}
+            {/* <h1 className="text-2xl md:text-3xl font-extrabold text-white bg-gradient-to-r from-yellow-400 via-orange-500 to-pink-500 bg-clip-text text-transparent drop-shadow-sm"> */}
+  {/* AI Trip Planner
+</h1> */}
+
           </a>
 
           {/* Actions */}
           <div className="flex items-center gap-4">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
 
             {user ? (
               <>
                 <a href="/create-trip">
-                  <Button variant="outline" className="rounded-full hover:bg-green-300">
+                  <Button variant="outline" className="rounded-full hover:bg-orange-300">
                     + Create Trip
                   </Button>
                 </a>
                 <a href="/my-trips">
-                  <Button variant="outline" className="rounded-full hover:bg-green-300">
+                  <Button variant="outline" className="rounded-full hover:bg-orange-300">
                     My Trips
                   </Button>
                 </a>

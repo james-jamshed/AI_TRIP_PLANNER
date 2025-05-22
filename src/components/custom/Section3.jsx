@@ -62,7 +62,7 @@ const Section3 = () => {
               />
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-500 rounded-lg"></div>
             </div>
-            <p className="mt-2 text-center  text-2xl md:text-3xl  text-white font-semibold">{name}</p>
+            <p className="mt-2 text-center  text-2xl md:text-3xl  text-white font-sans">{name}</p>
           </a>
         ))}
       </div>

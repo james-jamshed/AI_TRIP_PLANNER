@@ -132,25 +132,26 @@ function CreateTrip() {
   };
 
   return (
-    <div className="sm:px-10 md:px-32 lg:px-56 px-5 mt-1 bg-black">
+    <div className="sm:px-10 md:px-32 lg:px-56 px-5 mt-20 ">
       <div data-aos="fade-up" className="text-center mb-10 px-4">
-        <h2 className="font-extrabold text-4xl md:text-5xl text-green-800 drop-shadow-sm">
-          Tell us your travel preferences 🌴
+        <h2 className="font-sans text-3xl md:text-4xl text-black drop-shadow-sm">
+          Tell us your Travel preferences 🌴
         </h2>
-        <p className="mt-4 text-lg md:text-xl text-orange-700 max-w-2xl mx-auto">
+     
+        <p className="mt-4 text-lg md:text-xl text-black max-w-2xl mx-auto">
           Just provide a few simple details, and our AI-powered trip planner
-          will cook up a personalized itinerary just for you!
+          will cook up a personalized itinerary just for you 🌴!
         </p>
       </div>
 
       <div className="mt-20 flex flex-col gap-10">
         <div
-          className="p-6 bg-orange-50 hover:bg-orange-100 border border-orange-200 rounded-2xl shadow-sm transition-all duration-300"
+          className="p-6 bg-orange-50 hover:bg-orange-100 border border-orange-300 rounded-2xl shadow-sm transition-all duration-300"
           data-aos="fade-up"
         > 
           <label
             htmlFor="destination"
-            className="block text-2xl font-bold text-orange-800 mb-4"
+            className="block text-2xl font-bold text-black mb-4"
           >
             🌍 What is your destination of choice?
           </label>
@@ -189,12 +190,12 @@ function CreateTrip() {
         </div>
 
         <div
-          className="p-6 bg-orange-50 hover:bg-orange-100 border border-orange-200 rounded-2xl shadow-sm transition-all duration-300"
+          className="p-6 bg-orange-50 hover:bg-orange-100 border border-orange-300 rounded-2xl shadow-sm transition-all duration-300"
           data-aos="fade-up"
         >
           <label
             htmlFor="trip-days"
-            className="block text-2xl font-bold text-orange-800 mb-4"
+            className="block text-2xl font-bold text-black mb-4"
           >
             🗓️ How many days are you planning your trip?
           </label>
@@ -213,7 +214,7 @@ function CreateTrip() {
           data-aos="fade-up"
           className="p-6 rounded-xl bg-orange-50 hover:bg-orange-100 transition-all duration-300"
         >
-          <h2 className="text-2xl font-bold text-orange-800 hover:text-orange-600 transition-colors">
+          <h2 className="text-2xl font-bold text-black  border-orange-300  hover:text-orange-600 transition-colors">
             What is Your Budget?
           </h2>
 
@@ -228,11 +229,11 @@ function CreateTrip() {
                     : "border-orange-300 bg-orange-100"
                 }`}
               >
-                <h2 className="text-4xl mb-2 text-red-600">{item.icon}</h2>
+                <h2 className="text-4xl mb-2 text-black">{item.icon}</h2>
                 <h2 className="font-bold text-lg text-orange-900">
                   {item.title}
                 </h2>
-                <p className="text-sm text-orange-700">{item.desc}</p>
+                <p className="text-sm text-black">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -241,7 +242,7 @@ function CreateTrip() {
           data-aos="fade-up"
           className="p-6 rounded-xl bg-orange-50 hover:bg-orange-100 transition-all duration-300"
         >
-          <h2 className="text-2xl font-bold text-orange-800 hover:text-orange-600 transition-colors">
+          <h2 className="text-2xl font-bold text-black hover:text-orange-600 transition-colors">
             Who do you plan on traveling with on your next adventure?
           </h2>
 
@@ -256,22 +257,22 @@ function CreateTrip() {
                     : "border-orange-300 bg-orange-100"
                 }`}
               >
-                <h2 className="text-4xl text-red-600 mb-2">{item.icon}</h2>
+                <h2 className="text-4xl text-black mb-2">{item.icon}</h2>
                 <h2 className="font-bold text-lg text-orange-900">
                   {item.title}
                 </h2>
-                <p className="text-sm text-orange-700">{item.desc}</p>
+                <p className="text-sm text-black">{item.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </div>
 
-      <div className="my-10 flex justify-end">
+      <div className="mt-10 flex justify-end">
         <Button
           disabled={loading}
           onClick={onGenerateTrip}
-          className={`px-6 py-3 rounded-xl text-white font-semibold transition-all duration-300
+          className={`px-6 py-3 rounded-xl mb-5 text-white font-semibold transition-all duration-300
       ${
         loading
           ? "bg-orange-300 cursor-not-allowed"
