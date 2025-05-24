@@ -23,7 +23,8 @@ function UserTripCardItem({ trip }) {
   return (
     <Link to={`/view-trip/${trip?.id}`}>
       <div className='hover:scale-105 transition-all'>
-        <img src="https://img.freepik.com/free-vector/travel-tourism-illustration-with-resort-sightseeing-elements_1284-30189.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740"
+        <img src= {photoUrl ? photoUrl : '/placeholder.jpg'} 
+        // "https://img.freepik.com/free-vector/travel-tourism-illustration-with-resort-sightseeing-elements_1284-30189.jpg?ga=GA1.1.730172403.1747239354&semt=ais_hybrid&w=740"
         
         // {photoUrl ? photoUrl : '/placeholder.jpg'} 
         alt="" className='object-cover rounded-xl h-[220px]' />
