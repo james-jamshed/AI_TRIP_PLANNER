@@ -45,7 +45,7 @@ function Viewtrip() {
             <PlacesToVisit trip={trip} />
 
             {/* Footer */}
-            <Footer trip={trip} />
+            {/* <Footer trip={trip} /> */}
 
         </div>
     )
