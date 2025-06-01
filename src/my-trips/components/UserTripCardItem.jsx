@@ -2,7 +2,7 @@ import { GetPlaceDetails, PHOTO_REF_URL } from '@/service/GlobalApi';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 // import FeedbackForm from '@/components/FeedbackForm';
-import FeedbackForm from '../../components/FeedbackForm';
+// import FeedbackForm from '../../components/FeedbackForm';
 
 
 // Adjust path as per your folder structure
@@ -45,9 +45,9 @@ function UserTripCardItem({ trip }) {
         </div>
       </Link>
 
-      {/* Feedback Form */}
-      <div className='mt-4'>
-        <FeedbackForm tripId={trip?.id} />
+      Feedback Form
+      <div className=''>
+        {/* <FeedbackForm tripId={trip?.id} /> */}
       </div>
     </div>
   );
